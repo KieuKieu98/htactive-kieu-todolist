@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="container">
+            <div class="header">
+                <!-- <div class="header-title"> -->
+
+                <h4 class="text-todo"><i class="far fa-circle icon-circle"></i>Todo React Redux</h4>
+                <!-- </div> -->
+                <div class="header-action">
+                    <a class="sign-out">Sign out</a>
+                    <i class="fab fa-github icon-git"></i>
+                </div>
+            </div>
+            <div class="content">
+                <div class="input">
+                    <form action="">
+                        <input type="text" autocomplete="off" class="task-form" placeholder="What needs to be done?" value="">
+                    </form>
+                </div>
+                <div class="list">
+                    <ul class="task-filters">
+                        <li><a class="active" href="#">View All</a></li>
+                        <li><a href="#">Active</a></li>
+                        <li><a href="#">Completed</a></li>
+                    </ul>
+                    <div class="task-list">
+                        <div class="task-item">
+                            <div class="cell-lelf">
+                                <div class="cell">
+                                    <button class="btn task-button" type="button"><i class="fas fa-check icon"></i></button>
+                                </div>
+                                <div class="cell title">
+                                    <div class="task-title">kieu</div>
+                                </div>
+                            </div>
+                            <div class="cell cell-right">
+                                <button class="btn task-button" type="button"><i class="fas fa-pencil-alt icon"></i></button>
+                                <button class="btn task-button btn-delete" type="button"><i class="fas fa-trash icon"></i></button>
+                            </div>
+                        </div>
+                        <div class="task-item">
+                            <div class="cell-lelf">
+                                <div class="cell">
+                                    <button class="btn task-button" type="button"><i class="fas fa-check icon check"></i></button>
+                                </div>
+                                <div class="cell title">
+                                    <div class="task-title completed">kieu</div>
+                                </div>
+                            </div>
+                            <div class="cell cell-right">
+                                <button class="btn task-button" type="button"><i class="fas fa-pencil-alt icon"></i></button>
+                                <button class="btn task-button btn-delete" type="button"><i class="fas fa-trash icon"></i></button>
+                            </div>
+                        </div>
+                        <div class="task-item">
+                            <div class="cell-lelf">
+                                <div class="cell title">
+                                    <input type="text" autocomplete="off" class="task-title" maxlength="64" value="sssssss">
+                                </div>
+                            </div>
+                            <div class="cell cell-right">
+                                <button class="btn task-button" type="button"><i class="fas fa-times icon"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
